@@ -1,0 +1,56 @@
+/* app.css */
+
+/* Certifique-se de que o SidePanel está fixado à esquerda */
+.side-panel {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Estilo para a MainGrid */
+.main-grid {
+    padding: 20px;
+}
+
+/* Full-width Navbar no topo */
+.navbar {
+    width: 100%;
+}
+
+/* Estilo geral dos cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Estilo das imagens dos cards */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+/* Estilo do corpo do card para se ajustar à altura da imagem */
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilo do botão de like */
+.btn-like {
+    padding: 0.25rem 0.5rem; /* Menos preenchimento para um botão menor */
+    font-size: 1rem; /* Tamanho da fonte do ícone */
+    line-height: 1; /* Ajuste a altura da linha para centralizar o ícone */
+    border-radius: 0.25rem; /* Bordas arredondadas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.btn-like i {
+    font-size: 1.25rem; /* Tamanho do ícone */
+}
+

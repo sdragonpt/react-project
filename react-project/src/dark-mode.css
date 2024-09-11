@@ -1,0 +1,44 @@
+/* dark-mode.css */
+
+body.bg-dark {
+    background-color: #1c1f2a !important;
+    color: #fff;
+}
+
+body.bg-dark .navbar {
+    background-color: #1c1f2a !important;
+}
+
+body.bg-dark .card {
+    background-color: #282f3d !important;
+    color: #fff;
+}
+
+body.bg-dark .list-group-item {
+    background-color: #1c1f2a !important;
+    color: #fff;
+    border: 1px solid #252933 !important;
+}
+
+body.bg-dark .form-control {
+    background-color: #252933; /* Cor de fundo da barra de pesquisa no dark mode */
+    color: #fff; /* Cor do texto na barra de pesquisa no dark mode */
+    border: 1px solid #1c1f2a; /* Cor da borda da barra de pesquisa no dark mode */
+}
+
+body.bg-dark .form-control::placeholder {
+    color: #adb5bd; /* Cor do texto do placeholder no dark mode */
+}
+
+/* Botão no dark mode */
+body.bg-dark .btn-outline-primary {
+    border-color: #282f3d; /* Cor da borda no dark mode */
+    color: #282f3d; /* Cor do texto no dark mode */
+}
+
+/* Botão no dark mode quando em foco */
+body.bg-dark .btn-outline-primary:focus,
+body.bg-dark .btn-outline-primary:hover {
+    background-color: #282f3d; /* Cor de fundo no hover/foco no dark mode */
+    color: #fff; /* Cor do texto no hover/foco no dark mode */
+}
